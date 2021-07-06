@@ -1,0 +1,25 @@
+
+
+@mixin scroll {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 70vh;
+    line-height: 35px;
+    text-align: center;
+    // background-color: #232323;
+    .syntax{
+        margin: auto 0;
+    }
+    h1{
+        font-size: 3rem;
+        font-weight: 400;
+    }
+    h2{
+        font-weight: 700;
+        font-size: 4rem;
+    }
+    h3{
+        font-size: 2rem;
+    }
+}

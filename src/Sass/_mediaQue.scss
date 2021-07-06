@@ -1,0 +1,782 @@
+// media query for i pad pro
+
+@mixin mediaQIPadPro {
+    @media only screen and(width: 1024px) and (height: 1366px){
+        grid-template-columns: 49vw 49vw;
+        grid-template-rows: 60vh 50vh;
+        margin: 0px auto !important;
+        .right{
+            border-radius: 0px 0px 15px 15px !important;
+            width: 98vw;
+            margin-top: -5rem;
+            .mainright{
+                display: grid !important;
+                grid-template-columns: 50% 50% !important;
+                width: 98vw !important;
+                .subright{
+                    // background-color: yellow !important;
+                    width: 100% !important;
+                    height: 6.5rem !important;
+                    margin-left: 20px !important;
+                    .details{
+                        h5{
+                            width: 100%;
+                        }
+                    }
+                }
+                .mob1{
+                    h5{
+                        font-size: 2rem;
+                    }
+                    p{
+                        font-size: 1.7rem;
+                        line-height: 50px;
+                    }
+                }
+                .mob2{
+                    
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: space-around;
+                    img{
+                        width: 5rem !important;
+                    }
+                    h5{
+                        font-size: 2rem !important;
+                    }
+                    p{
+                        font-size: 1.5rem;
+                    }
+                }
+                h4{
+                    writing-mode: unset !important;
+                    top: unset !important;
+                    bottom: -46% !important;
+                    font-size: 1.3rem !important;
+                    right: -2% !important;
+                }
+            }
+        }
+        .center{
+            border-radius: 0px 15px 0px 0px !important;
+            img{
+                width: 690px !important;
+            }
+        }
+        .left{
+            border-radius: 15px 0px 0px 0px !important;
+        }
+        .socials{
+            font-size: 2.5rem !important;
+        }
+        .mainLeft {
+            background-color: white;
+            width: 107%;
+            height: 30vh;
+            
+            bottom: 19%;
+            overflow: hidden;
+            .single{
+                height: 50vh !important;
+            }
+            .first{
+                margin-top: -36rem !important;
+                h1{
+                    font-size: 4.3rem !important;
+                }
+                h2{
+                    font-size: 5rem !important;
+                }
+            }
+            .second{
+                margin-top: 15rem;
+                h1{
+                    font-size: 4rem !important;
+                }
+            }
+            .third{
+                h3{
+                    font-size: 3.5rem !important;
+                }
+                .skills{
+                    .fab, .fas{
+                        font-size: 2.2rem;
+                    }
+                    p{
+                        font-size: 1.3rem;
+                    }
+                }
+            }
+            .fourth{
+                h1{
+                    font-size: 3rem;
+                    margin: 0;
+                }
+                h4{
+                    font-size: 1.5rem !important;
+                    line-height: 15px;
+                }
+            }
+        }
+    }
+}
+
+
+// Left media query
+// first and second media query // third media query
+
+@mixin mediaQLeftFS {
+     
+     @media only screen and (max-width: 1350px){
+        .first, .second {
+            h1{
+                font-size: 3rem;
+            }
+            h2{
+                font-weight: 600;
+                font-size: 3rem;
+            }
+        }
+    }
+    
+    @media only screen and (max-width: 1215px){
+        .second {
+            h1{
+                font-size: 2.5rem;
+            }
+            
+        }
+    }
+
+
+    @media only screen and (max-width: 1140px){
+        .first{
+            .GB{
+                font-size: 2.5rem;
+            }
+        }
+    }
+    
+    
+    
+    @media only screen and (max-width: 1045px) {
+        .first, .second {
+            h1, .GB{
+                font-size: 2rem;
+            }
+            
+        }
+    }
+}
+
+//third
+@mixin mediaQLeftTH {
+    @media only screen and (max-width: 1300px){
+        .third{
+            h3{
+                font-size: 1.5rem;
+                margin-bottom: 10%;
+            }
+            .fab{
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: 0.9rem;
+                font-weight: 700;
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1120px){
+        .third{
+            h3{
+                font-size: 1.2rem;
+                margin-bottom: 10%;
+            }
+            .fab{
+                font-size: 1.5rem;
+            }
+            p{
+                font-size: 0.7rem;
+                font-weight: 700;
+            }
+        }
+    }
+}
+
+
+// center media query
+
+@mixin mediaQCenter {
+    @media only screen and (max-width: 1150px){
+        .img{
+            width: 55vw;
+            margin-left: -3rem;
+            margin-top: -3%;
+        }
+    }
+    
+}
+
+// media Q for different heights for center
+
+@mixin mediaQCenterHeights {
+    @media only screen and (height:802px){
+        .img{
+            width: 60vw;
+            margin-left: -7rem;
+            // margin-left: -3rem;
+            margin-top: -3%;
+        }
+    }
+    @media only screen and (height:877px){
+        .img{
+            width: 60vw;
+            margin-left: -7rem;
+            // margin-left: -3rem;
+            margin-top: -3%;
+        }
+    }
+    @media only screen and (height:1053px){
+        .img{
+            width: 65vw;
+            margin-left: -7rem;
+            // margin-left: -3rem;
+            margin-top: -3%;
+        }
+    }
+    @media only screen and (height:1316px){
+        .img{
+            width: 65vw;
+            margin-left: -7rem;
+            // margin-left: -3rem;
+            margin-top: -3%;
+        }
+    }
+    @media only screen and (height:702px){
+        .img{
+            width: 60vw;
+            margin-left: -5rem;
+            // margin-left: -3rem;
+            margin-top: -3%;
+        }
+    }
+    @media only screen and (height:658px){
+        .img{
+            width: 56vw;
+            margin-left: -3rem;
+            // margin-left: -3rem;
+            margin-top: -3%;
+        }
+    }
+}
+
+// right media query
+
+@mixin mediaQRight {
+    @media only screen and (max-width: 1060px){
+        .details{
+            p{
+                font-size: 12px;
+            }
+        }
+    }
+    @media only screen and (max-width: 990px){
+        .mainright{
+            h4{
+                right: -34%;
+            }
+        }
+        .details{
+            p{
+                font-size: 10px;
+            }
+        }
+    }
+}
+
+
+// media q for width phones and tabs
+@mixin mediaQPhone {
+    @media only screen and(max-width: 960px){
+        // grid-template-columns: repeat(auto-fit,minmax(48vw, 49vw)) !important;
+        grid-template-columns: 48vw 48vw;
+        grid-template-rows: 50vh;
+        margin: 0px auto !important;
+        .right{
+            border-radius: 0px 0px 15px 15px !important;
+            width: 96vw;
+            margin-top: -5rem;
+          
+
+            .mainright{ 
+                // margin: 0px auto !important;
+                width: 97vw !important;
+                height: auto !important;
+                .subright{
+                    // background-color: yellow !important;
+                    width: 60% !important;
+                    height: 6.5rem !important;
+                    margin-left: 20px !important;
+                }
+                
+                .mob1{
+                    margin: 0px 25px !important;
+                    h5{
+                        font-size: 2rem;
+                        margin-top: 15%;
+                    }
+                    p{
+                        font-size: 1.5rem;
+                        line-height: 50px;
+                    }
+                }
+                .mob2{
+                    // margin-top: 126px !important;
+                    // display: flex;
+                    // flex-direction: column;
+                    // justify-content: center;
+                    img{
+                        width: 5rem !important;
+                    }
+                    h5{
+                        font-size: 1.5rem !important;
+                    }
+                    p{
+                        font-size: 1.2rem;
+                    }
+                }
+                h4{
+                    top: 57% !important;
+                    font-size: 1rem !important;
+                    right: -5% !important;
+                }
+            }
+        }
+        .center{
+            border-radius: 0px 15px 0px 0px !important;
+            img{
+                width: 135% !important;
+                margin-left: -2rem !important;
+            }
+        }
+        .left{
+            border-radius: 15px 0px 0px 0px !important;
+        }
+        .mainLeft {
+            
+            .single{
+                height: 40vh !important;
+            }
+            .first{
+                margin-top: -36rem !important;
+                h1{
+                    font-size: 3rem !important;
+                }
+                h2{
+                    font-size: 3.5rem !important;
+                }
+            }
+            .second{
+                margin-top: 20rem;
+                h1{
+                    font-size: 3.2rem !important;
+                }
+            }
+            .third{
+                margin-top: 15rem;
+                h3{
+                    font-size: 2.5rem !important;
+                }
+            }
+        }
+    }
+    @media only screen and(max-width: 775px){
+        
+        .mainLeft{
+            .second{
+                h1{
+                    font-size: 2.9rem !important;
+                }
+            }
+            .fourth{
+                h1{
+                    margin: 0px;
+                }
+                h4{
+                    line-height: 0px;
+                }
+            }
+        }
+        .right{
+
+            .mainright{
+                .mob1{
+                    h5{
+                        margin-top: 25% !important;
+                    }
+                }
+                .mob2{
+                    .details{
+                        margin-left: 5%;
+                    }
+                }
+                h4{
+                    top: 63% !important;
+                }
+            }
+        }
+        .center{
+            .img{
+                width: 161% !important;
+                margin-left: -3rem !important;
+            }
+        }
+    }
+    @media only screen and (max-width:575px){
+        
+        .right{
+            .mainright{
+                .subright{
+                    width: 75% !important;
+                }
+                margin: unset !important;
+                .mob1{
+                    h5{
+                        margin-top: 33% !important;
+                    }
+                    p{
+                        font-size: 1.2rem !important;
+                    }
+                }
+                h4{
+                    right: -2% !important;
+                }
+            }
+        }
+        .inecation {
+            display: flex;
+            flex-direction: row;
+            position: absolute;
+            top: 3%;
+            left: 2%;
+            z-index: 5;
+            .fa-circle{
+                // margin: 35% 0;
+                padding-left: 5px !important;
+                &:hover{
+                    cursor: pointer;
+            }
+        }
+        }
+        .mainLeft{
+            .first{
+                h1{
+                    font-size: 2.5rem !important;
+                }
+                .GB{
+                    font-size: 2.3rem !important;
+                }
+            }
+            .second{
+                line-height: 22px !important;
+                h1{
+                    font-size: 2.2rem !important;
+                }
+            }
+            .third{
+                .skills{
+                    margin-top: -26px;
+                }
+                p{
+                    font-size: 0.6rem !important;
+                }
+                h3{
+                    font-size: 2rem !important;
+                }
+            }
+            .fourth{
+                img{
+                    width: 80% !important;
+                }
+                h1{
+                    font-size: 2rem !important;
+                }
+            }
+        }
+        .center{
+            .img{
+                width: 141% !important;
+                margin-left: -1rem !important;
+            }
+        }
+    }
+    @media only screen and (max-width: 475px){
+        .right{
+            .mainright{
+                .subright{
+                    height: 5.5rem !important;
+                }
+                p{
+                    margin-top: -8%;
+                }
+            }
+        }
+        .left{
+            .first{
+                h1{
+                    font-size: 2.4rem !important;
+                }
+                .GB{
+                    font-size: 2.1rem !important;
+                }
+            }
+            .second{
+                h1{
+                    font-size: 2rem !important;
+                }
+            }
+            .third{
+                .skills{
+                    margin-top: -13px !important;
+                }
+                p{
+                    font-size: 0.6rem !important;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width:415px){
+        .right{
+            .mainright{
+                .subright{
+                    height: 4rem !important;
+                }
+                h5{
+                    font-size: 1.2rem !important;
+                }
+                p{
+                    font-size: 1rem;
+                }
+                .mob1{
+                    h5{
+                        font-size: 1.5rem;
+                    }
+                    p{
+                        font-size: 0.9rem !important;
+                        line-height: 40px !important;
+                    }
+                }
+                .mob2{
+                    h5{   
+                        font-size: 1rem !important;
+                    }
+                    p{
+                        font-size: 0.8rem !important;
+                    }
+                    img{
+                        width: 3.5rem !important;
+                    }
+                }
+                h4{
+                    top: 56% !important;
+                    font-size: 0.8rem !important;
+                }
+            }
+        }
+        .left{
+            .mainLeft{
+                .first{
+                    h1{
+                        font-size: 1.8rem !important;
+                    }
+                    .GB{
+                        font-size: 1.5rem !important;
+                    }
+                }
+                .second{
+                    h1{
+                        font-size: 1.4rem !important;
+                    }
+                    h3{
+                        font-size: 1rem !important;
+                    }
+                }
+                .third{
+                    h3{
+                        font-size: 1.5rem !important;
+                    }
+                    p{
+                        font-size: 0.4rem !important;
+                    }
+                }
+            }
+        }
+        .center{
+            .img{
+                width: 169% !important;
+                margin-left: -2rem !important;
+            }
+        }
+    }
+    @media only screen and (max-width:360px){
+        .left{
+            width: 53vw;
+            .socials{
+                font-size: 1.1rem !important;
+            }
+            .mainLeft{
+                .first{
+                    line-height: 27px !important;
+                    h1{
+                        font-size: 1.5rem !important;
+                    }
+                    .GB{
+                        font-size: 1.3rem !important;
+                    }
+                    h2{
+                        font-size: 3.2rem !important;
+                    }
+                }
+                .second{
+                    font-size: 1.3rem !important;
+                }
+                .third{
+                    font-size: 1.3rem !important;
+                    p{
+                        font-size: 0.35rem !important;
+                    }
+                    .skills{
+                        margin-top: -18px !important;
+                        .fab, .fas{
+                            font-size: 1rem !important;
+                        }
+                    }
+                }
+                .fourth{
+                    h1{
+                        font-size: 1.5rem !important;
+                    }
+                }
+            }
+        }
+        .center{
+            .img{
+                width: 173% !important;
+                margin-left: -1.5rem !important;
+            }
+        }
+        .right{
+            .mainright{
+                .mob1{
+                    margin: 0px 8px !important;
+                    h5{
+                        margin-top: 42% !important;
+                    }
+                    p{
+                        font-size: 0.7rem !important;
+                    }
+                }
+                .mob2{
+                    p{
+                        font-size: 0.7rem !important;
+                    }
+                    h5{
+                        font-size: 0.8rem !important;
+                    }
+                }
+                h4{
+                    font-size: 0.6rem !important;
+                    top: 64% !important;
+                }
+            }
+        }
+    }
+}
+
+
+// media q for Projects
+
+@mixin mediaQProjects {
+    @media only screen and (max-width: 1100px){
+        .internal{
+            grid-gap: 5vw !important;
+            img{
+                
+                width: 110% !important;
+                border-radius: unset !important;
+                margin-left: 1vw !important;
+            }
+        }
+    }
+    @media only screen and (max-width: 800px){
+        h1{
+            margin-bottom: unset !important;
+        }
+    }
+    @media only screen and (max-width: 700px){
+        .internal{
+            display: unset !important;
+            img{
+                margin-left: unset !important;
+                width: 100% !important;
+                height: 28vh !important;
+                object-fit: cover !important;
+                border-radius: 15px 15px 0 0 !important;
+            }
+            .det{
+                display: unset !important;
+                // text-align: center !important;
+                h3{margin-left: 2vw;}
+                h5{
+                    padding: 0 3vw !important;
+                }
+                p{
+                    padding: 0 3vw !important;
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 550px){
+        h2{
+            font-size: 1rem;
+        }
+        h1{
+            font-size: 1.5rem;
+        }
+        .internal{
+            .det{
+                h3{
+                    font-size: 1.5rem !important;
+                }
+                h5,p{
+                    font-size: 1rem !important;
+                    span{
+                        font-size: 0.7rem !important;
+                    }
+                }
+            }
+        }
+    }
+    @media only screen and (max-width: 300px){
+        h1{
+            font-size: 1.1rem !important;
+        }
+        h2{
+            font-size: 0.8rem !important;
+        }
+        .internal{
+            .det{
+                h3{
+                    font-size: 1rem !important;
+                }
+                p{
+                    font-size: 0.8rem !important;
+                    span{
+                        font-size:  0.6rem !important;
+                    }
+                }
+            }
+        }
+    }
+}

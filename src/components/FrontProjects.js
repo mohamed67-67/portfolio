@@ -1,56 +1,56 @@
 import React from 'react'
-import {motion} from 'framer-motion'
-import {CardActionArea} from '@material-ui/core'
-import {Link} from 'react-router-dom'
+import { motion } from 'framer-motion'
+import { CardActionArea } from '@material-ui/core'
+import { Link } from 'react-router-dom'
 
 
 const Variants = {
-    initial :{
-        opacity : 0
+    initial: {
+        opacity: 0
     },
-    animate:{
-        opacity : 1, transition:{duration: 1.5, ease : 'easeInOut'}
+    animate: {
+        opacity: 1, transition: { duration: 1.5, ease: 'easeInOut' }
     },
-    exit : {
-        opacity : 0, transition :{duration : 0.5}
+    exit: {
+        opacity: 0, transition: { duration: 0.5 }
     },
-    exitForI : {
-        x: '-5vw', transition: {duration : 1}
+    exitForI: {
+        x: '-5vw', transition: { duration: 1 }
     }
 }
 
 
 function FrontProjects() {
     return (
-        <motion.div className='projects' variants={Variants} animate='animate' initial ='initial' exit='exit' >
+        <motion.div className='projects' variants={Variants} animate='animate' initial='initial' exit='exit' >
             <Link to='/'> <motion.h2 variants={Variants} exit='exitForI'> <i variants={Variants} exit='exitForI' className="fas fa-angle-double-left"></i> Back</motion.h2> </Link>
             <h1>Front End Projects</h1>
-            
+
+            <a target='_blank' rel="noreferrer" href='https://netflix-clonefirst.netlify.app/'>
+                <CardActionArea className="internal">
+                    <img src="/photos/netflix.png" alt="" />
+                    <div className="det">
+                        <h3>Netflix Clone</h3>
+                        <h5>A clone of netflix site built with React.js with several feature like fetching an end point for movies List and catch Youtube Trailers</h5>
+                        <p>Technologies : <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>React.js</span> <span>React-YouTube</span> <span>Axios</span></p>
+                    </div>
+                </CardActionArea>
+            </a>
+
             <a target='_blank' rel="noreferrer" href='https://mohamed67-67.github.io/KinderGarten/.'>
                 <CardActionArea className="internal">
-                    <img src="/photos/projectKinder.png" alt=""/>
+                    <img src="/photos/projectKinder.png" alt="" />
                     <div className="det">
-                        <h3>Kinder Garden</h3>
-                        <h5>In this project i wanted to start doing a practical project after learning only html,css,js and JQuery and to implement different tricks of CSS so i made this site up as a kinder garden site.</h5>
+                        <h3>kindergarten</h3>
+                        <h5>In this project i wanted to start building a practical project after learning only html,css,js and JQuery and to implement different tricks of CSS so i made this site up as a kindergarten site.</h5>
                         <p>Technologies : <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>BootStrap</span> <span>JQuery</span></p>
                     </div>
                 </CardActionArea>
             </a>
 
-            <a target='_blank' rel="noreferrer" href='https://mohamed67-67.github.io/Coffe-Shop/'>
-                <CardActionArea className="internal">
-                    <img src="/photos/projectRegular.png" alt=""/>
-                    <div className="det">
-                        <h3>Coffee Shop <span>V1.0.0</span></h3>
-                        <h5>In this project i wanted to expand my knowledge further by integrating libraries for the first time and expand my experience in such beginner level of me then.</h5>
-                        <p>Technologies : <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>BootStrap</span> <span>JQuery</span></p>
-                    </div>
-                </CardActionArea>
-            </a>
-            
             <a target='_blank' rel="noreferrer" href='https://coffe-shop.netlify.app'>
                 <CardActionArea className="internal extra">
-                    <img src="/photos/projectReact.png" alt=""/>
+                    <img src="/photos/projectReact.png" alt="" />
                     <div className="det">
                         <h3>Coffee Shop <span>V1.1.0</span></h3>
                         <h5>In this project i used React.js for the first time and i found it a good chance to improve one of my pervious projects which is Coffe Shop and Practice React.js, for state managment i used React Hooks like useContext and useReducer no Redux in this Point.</h5>
@@ -58,7 +58,18 @@ function FrontProjects() {
                     </div>
                 </CardActionArea>
             </a>
-            
+
+            <a target='_blank' rel="noreferrer" href='https://mohamed67-67.github.io/Coffe-Shop/'>
+                <CardActionArea className="internal">
+                    <img src="/photos/projectRegular.png" alt="" />
+                    <div className="det">
+                        <h3>Coffee Shop <span>V1.0.0</span></h3>
+                        <h5>In this project i wanted to expand my knowledge further by integrating libraries for the first time and expand my experience in such beginner level of me then.</h5>
+                        <p>Technologies : <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>BootStrap</span> <span>JQuery</span></p>
+                    </div>
+                </CardActionArea>
+            </a>
+
 
         </motion.div>
     )

@@ -27,7 +27,7 @@ function MernProjects() {
             <Link to='/'> <motion.h2 variants={Variants} exit='exitForI'> <i variants={Variants} exit='exitForI' className="fas fa-angle-double-left"></i> Back</motion.h2> </Link>
             <h1>MERN stack project</h1>
             
-            <a target='_blank' rel="noreferrer" href='https://first-mernapp.netlify.app/'>
+            <a target='_blank' rel="noreferrer" href='https://awesome-kowalevski-c4c181.netlify.app/'>
                 <CardActionArea className="internal">
                     <img src="/photos/mern.png" alt=""/>
                     <div className="det">

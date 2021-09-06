@@ -43,7 +43,7 @@ the structure of folders and files be like
 ![certain css](https://user-images.githubusercontent.com/74463744/132219264-56c10f07-35d4-47ed-9c9a-82fb4787ce2f.png)
 
 
-if the last section of using `className = {style.className}` please hit this [video] (https://www.youtube.com/watch?v=qKwnlTVAGnA) it is very useful
+if the last section of using `className = {style.className}` please hit this [video](https://www.youtube.com/watch?v=qKwnlTVAGnA) it is very useful
 
 
 

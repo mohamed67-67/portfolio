@@ -3,10 +3,13 @@
 ## LayOut Component
 to improve the app and make it less redundant we can make the LayOut Component Global and for the title we can use heading
 ```
+import Head from 'next/head'
+
 <Head>
         <title>MPA | Home</title>
 </Head>
 ```
+and then we can put the repeated copmponent that are redndered in the whole app like NavBar or footer or sideBar inside the layout component with out repeating the same components in each single page we build
 
 ### example of how lay out component wrap the whole app
 
@@ -46,8 +49,10 @@ the structure of folders and files be like
 if the last section of using `className = {style.className}` please hit this [video](https://www.youtube.com/watch?v=qKwnlTVAGnA) it is very useful
 
 
+___
+## image Structure inside the public folder
 
-
+![iamgeStructure](https://user-images.githubusercontent.com/74463744/132221503-7ee688e6-caf4-4014-bd7d-2e7983bf2bfa.png)
 
 
 

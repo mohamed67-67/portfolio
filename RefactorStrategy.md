@@ -19,8 +19,22 @@ two types of Styling files
 - global file
 - certain file for a single component
 
-the global apply styling for the general elements in the app like styling in html `scroll-behavior: smooth;` or in the body `box-sizing: border-box;`
-------
+the global file applies styling for the general elements in the app like styling in html `scroll-behavior: smooth;` or in the body `box-sizing: border-box;`
+
+the certain file applies different styling for each component and it will be only exclusive for this component and in this case we got privilages like
+- the code becomes more readable and more structured
+- we do not have to worry about redundant classNames in styling because each component will only read the exclusive file that was written to it
+
+### the structure of styles folder
+the global file is individual in styles folder 'globals.css'
+we make a single folder for each page like folder for 'mentorship' page and sub files for different components in it
+and the name of each file that represents styling and stands for a one component in the page 'component.module.css'
+
+the structure of folders and files be like
+
+![styles](https://user-images.githubusercontent.com/74463744/132217137-065ba1d3-195f-47e7-9bb9-b338ce33d51f.png)
+
+
 
 
 

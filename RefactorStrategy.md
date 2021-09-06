@@ -54,5 +54,8 @@ ___
 
 ![iamgeStructure](https://user-images.githubusercontent.com/74463744/132221503-7ee688e6-caf4-4014-bd7d-2e7983bf2bfa.png)
 
+___
+## Comments
 
+### comments in any app are as important as the code its self it is concidered the forte in any code structure we must use... think about it every three months different group of beginer developers give thier first look at the code so make sure they do not suffer to understand the code and in any function we build that we see it is a little bit confusing adding a comment would be great boost for someone else
 

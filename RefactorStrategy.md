@@ -26,13 +26,13 @@ the certain file applies different styling for each component and it will be onl
 - we do not have to worry about redundant classNames in styling because each component will only read the exclusive file that was written to it
 
 ### the structure of styles folder
-the global file is individual in styles folder 'globals.css'
-we make a single folder for each page like folder for 'mentorship' page and sub files for different components in it
-and the name of each file that represents styling and stands for a one component in the page 'component.module.css'
+- the global file is individual in styles folder 'globals.css'
+- we make a single folder for each page like folder for 'mentorship' page and sub files for different components in it
+- the name of each file that represents styling and stands for a one component in the page 'component.module.css'
 
 the structure of folders and files be like
 
-![styles](https://user-images.githubusercontent.com/74463744/132217137-065ba1d3-195f-47e7-9bb9-b338ce33d51f.png)
+![styles](https://user-images.githubusercontent.com/74463744/132217818-eb72dad9-a4b6-4885-8923-5b1f3bf64f46.png)
 
 
 

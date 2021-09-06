@@ -35,8 +35,15 @@ the structure of folders and files be like
 ![styles](https://user-images.githubusercontent.com/74463744/132217818-eb72dad9-a4b6-4885-8923-5b1f3bf64f46.png)
 
 
+### to import the globals.css and make it full fuctional over the whole app we import it in the '_ aPP.js' file like
+![import globals](https://user-images.githubusercontent.com/74463744/132218909-0062e637-9c07-4570-8f80-674f19470770.png)
 
 
+### to import a certain file for you component and use it
+![certain css](https://user-images.githubusercontent.com/74463744/132219264-56c10f07-35d4-47ed-9c9a-82fb4787ce2f.png)
+
+
+if the last section of using `className = {style.className}` please hit this [video] (https://www.youtube.com/watch?v=qKwnlTVAGnA) it is very useful
 
 
 

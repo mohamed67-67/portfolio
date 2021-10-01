@@ -73,17 +73,6 @@ function TasksProjects() {
                 </CardActionArea>
             </a>
 
-
-            <a target='_blank' rel="noreferrer" href='https://hex-ocean-task.netlify.app'>
-                <CardActionArea className="internal">
-                    <img src="/photos/port.png" alt="" />
-                    <div className="det">
-                        <h3>multi ordering form</h3>
-                        <h5>In this project I had a task from Hex-Ocean 'Poland' it was making up a form... the trick here was rendering conditionaly a certain ui according to the type of the order with certain type of input and make a json for all orders to be submitted to DB</h5>
-                        <p>Technologies : <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>Material-UI</span> <span>React.js</span> <span>Redux</span> <span>Sass</span></p>
-                    </div>
-                </CardActionArea>
-            </a>
         </motion.div>
     )
 }

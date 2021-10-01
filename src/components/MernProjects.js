@@ -32,7 +32,7 @@ function MernProjects() {
                     <img src="/photos/mern.png" alt="" />
                     <div className="det">
                         <h3>Simple CRUD Application</h3>
-                        <h5>After learning the basics of node.js I needed an application to implement despite it is a simple 'Create Read Update Delete' app but it helped me understanding the connection between front-end and back-end as well as node core concepts under the hood like event loop plus mongo.DB..the focus was in functionality not UI</h5>
+                        <h5>After learning the basics of node.js I needed an application to implement despite it is a simple 'Create Read Update Delete' app but it helped me understanding the connection between front-end and back-end as well as node core concepts under the hood like event loop plus mongo.DB</h5>
                         <p>Technologies : <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>React.js</span> <span>Redux</span> <span>Material-UI</span> <span>node.js</span> <span>express</span> <span>mongo.DB</span> <span>JWT</span></p>
                     </div>
                 </CardActionArea>

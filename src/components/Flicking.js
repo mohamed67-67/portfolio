@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 import Flicking from "@egjs/react-flicking";
-// import { AutoPlay } from "@egjs/flicking-plugins";
+
 
 
 
@@ -9,41 +9,41 @@ function Flick() {
     // const plugins = [new AutoPlay()];
 
     // writting effect
-    let i =0;
-    let j= 0
+    let i = 0;
+    let j = 0
     let textToScreen = useRef();
     let Phrases = ['Getting Bugs', 'Be Frustrated', "Get 'em fixed", 'Learn', 'Getting Better'];
     let currentPhrase = []
     let isDeleting = false;
     let isEnded = false
 
-    const Loop = () =>{
+    const Loop = () => {
         isEnded = false
 
-        if(i < Phrases.length){
+        if (i < Phrases.length) {
             // writting 
-            if(!isDeleting && j <= Phrases[i].length){
+            if (!isDeleting && j <= Phrases[i].length) {
                 currentPhrase.push(Phrases[i][j])
                 j++
                 textToScreen.current.innerHTML = currentPhrase.join('');
             }
             // Deleting
-            if(isDeleting && j <= Phrases[i].length){
+            if (isDeleting && j <= Phrases[i].length) {
                 currentPhrase.pop(Phrases[i][j])
                 j--
                 textToScreen.current.innerHTML = currentPhrase.join('')
             }
 
-            if(j=== Phrases[i].length){
+            if (j === Phrases[i].length) {
                 isDeleting = true;
                 isEnded = true;
             }
-            if(isDeleting && j=== 0){
-                i ++
+            if (isDeleting && j === 0) {
+                i++
                 isDeleting = false
-                if(i === Phrases.length){
+                if (i === Phrases.length) {
                     i = 0
-                    currentPhrase=[]
+                    currentPhrase = []
                 }
             }
         }
@@ -51,12 +51,12 @@ function Flick() {
         setTimeout(Loop, time)
     }
     const theFlek = useRef();
-    
-    useEffect(()=>{
+
+    useEffect(() => {
         textToScreen.current = document.getElementById('mytext');
         const indecators = document.querySelectorAll('.fa-circle');
         Loop();
-        
+
         indecators.forEach(one => {
             one.addEventListener('click', () => {
                 indecators.forEach(one => {
@@ -67,13 +67,13 @@ function Flick() {
                 theFlek.current.moveTo(theID);
             })
         })
-        
+
     })
-    
+
     // console.log(theFlek.current.currentPanel); activeIndex
     return (
-        <Flicking disableOnInit= {true} adaptive={true} ref={theFlek} align='prev'  bound={true} horizontal={false}  >
-            
+        <Flicking disableOnInit={true} adaptive={true} ref={theFlek} align='prev' bound={true} horizontal={false}  >
+
             <div className='first single'>
                 <div className="syntax">
                     <h1>Persistence..</h1>
@@ -81,7 +81,7 @@ function Flick() {
                     <h2>Every Day.</h2>
                 </div>
             </div>
-                
+
             <div className='second single'>
                 <div className="syntax">
                     <h1>Alexandria Uni</h1>
@@ -91,7 +91,7 @@ function Flick() {
                     <h3>Class : 2018</h3>
                 </div>
             </div>
-            
+
             <div className='third single'>
                 <h3>Skills</h3>
                 <div className="skills ">
@@ -144,22 +144,24 @@ function Flick() {
                         <i className="fas fa-code"></i>
                         <p>MongoDB(bas)</p>
                     </div>
-                        
+
                 </div>
-                
+
             </div>
-            
+
             <div className='fourth'>
                 <h1 >Experiences</h1>
+
                 <div className="cont">
                     <h4 >FullStack Intern</h4>
                     <h4>in TFG U.S.A</h4>
-                    <img style={{width: '98%'}} src="./photos/techforgood_logo.png" alt=""/>
+                    <img style={{ width: '90%' }} src="./photos/techforgood_logo.png" alt="" />
                     <p className='site'>https://techforgoodinc.org/</p>
                 </div>
+
             </div>
-            
-        </Flicking>
+
+        </Flicking >
     )
 }
 

@@ -185,6 +185,7 @@ body{
         }
     }
     .cont{
+        
         img{
             filter: grayscale(1);
         }
@@ -292,4 +293,12 @@ body{
         }
     }
     @include mediaQProjects;
+}
+
+.Error{
+    background-image: url(./404.png);
+    height: 90vh;
+    background-size: contain;
+    background-position-x: center;
+    background-repeat: no-repeat;
 }

@@ -175,23 +175,24 @@ body{
 }
 
 .fourth{
+    cursor: grab;
     &:hover{
         p{
             color: blue;
             font-size: 5rem;
         }
-        img{
-            filter: grayscale(0) !important;
-        }
+        // img{
+        //     filter: grayscale(0) !important;
+        // }
     }
     .cont{
         
-        img{
-            filter: grayscale(1);
-        }
+        // img{
+        //     filter: grayscale(1);
+        // }
         p{
             font-size: 0.7rem;
-            position: absolute;
+            // position: absolute;
             left: 1vw;
         }
     }

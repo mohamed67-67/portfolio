@@ -1,6 +1,46 @@
-import React, { useEffect, useRef } from 'react'
+import React, { Fragment, useEffect, useRef } from 'react'
 import Flicking from "@egjs/react-flicking";
 
+import { Swiper, SwiperSlide } from "swiper/react";
+import "swiper/swiper-bundle.css";
+import SwiperCore, { Pagination, Autoplay, Navigation } from 'swiper';
+
+
+
+SwiperCore.use([Pagination, Autoplay, Navigation]);
+const FlickT = () => {
+
+    return (
+        <div>
+            <h1 >Experiences</h1>
+            <Swiper
+                autoplay={{
+                    "delay": 3000,
+                    "disableOnInteraction": true
+                }}
+                loop={true} spaceBetween={50} >
+                <SwiperSlide>
+
+                    <div className="cont">
+                        <h4 >FullStack Intern</h4>
+                        <h4>at TFG U.S.A</h4>
+                        <img style={{ width: '70%' }} src="./photos/techforgood_logo.png" alt="" />
+                        <p className='site'>https://techforgoodinc.org/</p>
+                    </div>
+                </SwiperSlide>
+                <SwiperSlide>
+                    <div className="cont">
+                        <h4 >React.js Intern</h4>
+                        <h4>at MPA U.S.A</h4>
+                        <img style={{ width: '50%' }} src="https://minorityprogrammers.com/assets/images/mp_gradient_rock.svg" alt="" />
+                        <p className='site'>https://minorityprogrammers.com/</p>
+                    </div>
+                </SwiperSlide>
+            </Swiper>
+        </div>
+
+    )
+}
 
 
 
@@ -72,7 +112,7 @@ function Flick() {
 
     // console.log(theFlek.current.currentPanel); activeIndex
     return (
-        <Flicking disableOnInit={true} adaptive={true} ref={theFlek} align='prev' bound={true} horizontal={false}  >
+        <Flicking disableOnInit={true} adaptive={true} ref={theFlek} align='prev' horizontal={false}  >
 
             <div className='first single'>
                 <div className="syntax">
@@ -150,14 +190,15 @@ function Flick() {
             </div>
 
             <div className='fourth'>
-                <h1 >Experiences</h1>
+                {/* <h1 >Experiences</h1>
 
                 <div className="cont">
                     <h4 >FullStack Intern</h4>
                     <h4>in TFG U.S.A</h4>
                     <img style={{ width: '90%' }} src="./photos/techforgood_logo.png" alt="" />
                     <p className='site'>https://techforgoodinc.org/</p>
-                </div>
+                </div> */}
+                <FlickT />
 
             </div>
 

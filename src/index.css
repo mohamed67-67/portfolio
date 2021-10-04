@@ -742,22 +742,17 @@ body a {
   font-weight: 700;
 }
 
+.fourth {
+  cursor: grab;
+}
+
 .fourth:hover p {
   color: blue;
   font-size: 5rem;
 }
 
-.fourth:hover img {
-  filter: grayscale(0) !important;
-}
-
-.fourth .cont img {
-  filter: grayscale(1);
-}
-
 .fourth .cont p {
   font-size: 0.7rem;
-  position: absolute;
   left: 1vw;
 }
 

@@ -1,4 +1,4 @@
-import React, { Fragment, useEffect, useRef } from 'react'
+import React, { useEffect, useRef } from 'react'
 import Flicking from "@egjs/react-flicking";
 
 import { Swiper, SwiperSlide } from "swiper/react";

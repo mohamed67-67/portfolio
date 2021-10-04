@@ -32,7 +32,7 @@ function Right() {
                 <div className="mob1">
                     <h4>mohamed.sharkawey.77@gmail.com</h4>
                     <h5>ABSTRACT</h5>
-                    <p>I am mohamed sharkawey a front end developer. Right now i am seeking opportunity as one, i am a self learner and passionate about this field. so any further infrormation you shall find in my <a target='_blank' rel='noreferrer' className='CV' href='https://drive.google.com/file/d/1963GOll3NPQjjgucb1-peldFLT6HOu3Z/view?usp=sharing'>Resume <motion.i variants={Variants} whileHover='hover' className="fas fa-angle-double-right"></motion.i></a> and my portofolio or you can contact me</p>
+                    <p>I am mohamed sharkawey a front end developer. Right now i am seeking opportunity as one, i am a self learner and passionate about this field. so any further infrormation you shall find in my <a target='_blank' rel='noreferrer' className='CV' href='https://drive.google.com/drive/folders/1aBoJDIvDK2nEWGyCj0-okaEdelYychsg'>Resume <motion.i variants={Variants} whileHover='hover' className="fas fa-angle-double-right"></motion.i></a> and my portofolio or you can contact me</p>
                 </div>
                 <div className="mob2">
                     <Link to='/front' >

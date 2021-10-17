@@ -235,6 +235,13 @@ body{
     h1{
         padding: 15px;
         margin-bottom: 10vh;
+        position: sticky;
+        top: 0vh;
+        z-index: 11;
+        background-color: #3b3a3b;
+        width: 92%;
+        margin: 0 auto;
+
     }
     h2{ 
         width: fit-content;
@@ -242,6 +249,16 @@ body{
         padding: 2vh; 
     }
     
+    @keyframes arrow {
+        from {
+            opacity: 0;
+            color: white;
+        }
+        to {
+            opacity: 1;
+            color: #b38736;
+        }
+    }
     .internal{
         display: grid !important;
         justify-content: space-between;
@@ -257,6 +274,9 @@ body{
             img{
                 filter: grayscale(0);
                 transition: 0.5s;
+            }
+            .fa-angle-double-right{
+                animation: arrow 2.5s infinite both ease-out ;
             }
         }
         img{

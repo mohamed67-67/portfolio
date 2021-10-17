@@ -33,7 +33,7 @@ function TasksProjects() {
                 <CardActionArea className="internal">
                     <img src="/photos/pol.png" alt="" />
                     <div className="det">
-                        <h3>reserveing Theater Seats</h3>
+                        <h3>reserveing Theater Seats <i className="fas fa-angle-double-right"></i></h3>
                         <h5>In this project I had a task from X-Kom 'Poland' for reserveing theatre seats system with certain functionality and design it was an internship acceptance project using React & Redux for state managment</h5>
                         <p>Technologies : <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>React.js</span> <span>Redux</span> <span>Material-UI</span> <span>Framer Motion</span> <span>Sass</span></p>
                     </div>
@@ -44,7 +44,7 @@ function TasksProjects() {
                 <CardActionArea className="internal">
                     <img src="/photos/daos.png" alt="" />
                     <div className="det">
-                        <h3>DAO Aggregatation</h3>
+                        <h3>DAO Aggregatation <i className="fas fa-angle-double-right"></i></h3>
                         <h5>In this project I had a task from minority programmers 'USA' for Rendring DAOs with my own design and certain functionality like searching and filtering it was an internship acceptance project using React & Redux for state managment</h5>
                         <p>Technologies : <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>React.js</span> <span>Redux</span> <span>Boot-Strap</span> <span>Boot-StrapTable</span> <span>Sass</span></p>
                     </div>
@@ -55,7 +55,7 @@ function TasksProjects() {
                 <CardActionArea className="internal">
                     <img src="/photos/gemo.png" alt="" />
                     <div className="det">
-                        <h3>Trending Repos in GitHub</h3>
+                        <h3>Trending Repos in GitHub <i className="fas fa-angle-double-right"></i></h3>
                         <h5>In this project I had a task from Gemography Inc it was about fetching an end point contains the most starred repos in the last 30 days of github</h5>
                         <p>Technologies : <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>Material-UI</span> <span>React.js</span> <span>Redux</span> <span>Sass</span> <span>Moment</span></p>
                     </div>
@@ -66,7 +66,7 @@ function TasksProjects() {
                 <CardActionArea className="internal">
                     <img src="/photos/banks.png" alt="" />
                     <div className="det">
-                        <h3>Banks erp UI system</h3>
+                        <h3>Accounting erp UI system <i className="fas fa-angle-double-right"></i></h3>
                         <h5>In this project I had a task from WhiteCloud 'Egypt' for making up a UI table for different Banks and their accounts as a sub component using react.js and redux for state managment and material table for a full functional table</h5>
                         <p>Technologies : <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>Material-Table</span> <span>Material-UI</span> <span>React.js</span> <span>Redux</span></p>
                     </div>

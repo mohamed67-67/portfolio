@@ -108,6 +108,7 @@ function Flick() {
             })
         })
 
+
     })
 
     // console.log(theFlek.current.currentPanel); activeIndex

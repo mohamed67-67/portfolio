@@ -247,6 +247,9 @@ body{
         width: fit-content;
         // margin-left: 2vw;
         padding: 2vh; 
+        position: sticky;
+        top: 0;
+        z-index: 15;
     }
     
     @keyframes arrow {

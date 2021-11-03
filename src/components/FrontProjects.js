@@ -36,6 +36,17 @@ function FrontProjects() {
                 </div>
             </CardActionArea>
 
+            <a target='_blank' rel="noreferrer" href='https://condescending-clarke-f5d8b7.netlify.app/'>
+                <CardActionArea className="internal">
+                    <img src="/photos/space.png" alt="" />
+                    <div className="det">
+                        <h3>Space <i className="fas fa-angle-double-right"></i></h3>
+                        <h5>A Figma Design I found on FrontEnd Mentor website challenges </h5>
+                        <p>Technologies : <span>HTML</span> <span>CSS</span> <span>JavaScript</span> <span>React.js</span> <span>slick-carousel</span> <span>react-jquery-plugin</span> <span>Sass</span></p>
+                    </div>
+                </CardActionArea>
+            </a>
+
             <a target='_blank' rel="noreferrer" href='https://netflix-clonefirst.netlify.app/'>
                 <CardActionArea className="internal">
                     <img src="/photos/netflix.png" alt="" />
